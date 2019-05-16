@@ -40,8 +40,8 @@ h5内嵌在webview中必然需要和app原生交互，因此需要约定好交�
 
 ### 使用交互框架建议：[DSBridge](https://github.com/wendux)
 
-如果是主web前端的框架可以选择react native，weex，cordova+ionic等框架，否则主客户端的项目建议选择这个轻量实用的框架
-框架有中文说明，框架提供了交互技术，原生和前端只需要添加和使用对应方法就好了
+`如果是主web前端的框架可以选择react native，weex，cordova+ionic等框架，否则主客户端的项目建议选择这个轻量实用的框架
+框架有中文说明，框架提供了交互技术，原生和前端只需要添加和使用对应方法就好了`
 
 [DSBridge-IOS](https://github.com/wendux/DSBridge-IOS)
 
