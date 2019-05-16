@@ -18,10 +18,10 @@ h5内嵌在webview中必然需要和app原生交互，因此需要约定好交�
 1. 统一ua标识，客户端在webview用户标识尾部添加应用标识 ：
 ``` javascript
     console.log(window.navigator.userAgent)
-    // "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
+    // "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X)   AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1"
 
     // =>
-    // "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 app-1.4.1"
+    // "Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X)   AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 app-1.4.1"
     //app为应用标识 x.x.x为版本号
 ```
 
@@ -40,8 +40,8 @@ h5内嵌在webview中必然需要和app原生交互，因此需要约定好交�
 
 ### 使用交互框架建议：[DSBridge](https://github.com/wendux)
 
-`如果是主web前端的框架可以选择react native，weex，cordova+ionic等框架，否则主客户端的项目建议选择这个轻量实用的框架
-框架有中文说明，框架提供了交互技术，原生和前端只需要添加和使用对应方法就好了`
+如果是主web前端的框架可以选择react native，weex，cordova+ionic等框架，否则主客户端的项目建议选择这个轻量实用的框架
+框架有中文说明，框架提供了交互技术，原生和前端只需要添加和使用对应方法就好了
 
 [DSBridge-IOS](https://github.com/wendux/DSBridge-IOS)
 
